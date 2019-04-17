@@ -1,7 +1,7 @@
 import React from 'react';
 import {ScrollView, StyleSheet, View, Text} from 'react-native';
 
-export default class SettingsScreen extends React.Component {
+export default class WalletScreen extends React.Component {
     static navigationOptions = {
         header: null,
     };
@@ -12,7 +12,7 @@ export default class SettingsScreen extends React.Component {
                 <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
                     <View style={styles.welcomeContainer}>
                         <Text>
-                            Settings
+                            Wallet
                         </Text>
                     </View>
                 </ScrollView>
